@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+.content_container{
+    min-height: 100%;
+}
+
+#page-content{
+    margin: 10px 40px;
+}
+
+[id$="dropdown"] {
+    color: black;
+}
+
+.nav{
+    background-color: #2B4560;
+    padding: 0px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.nav h1{
+    font-family: 'Indie Flower', cursive;
+    color: #E1E7E0;
+    margin-left: 40px;
+}
+
+.nav_div{
+    margin-right: 20px;
+}
+
+.nav_div a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    margin: 0 30px;
+    background-color: #6AA4B0;
+    padding: 12px 22px;
+    border-radius: 15px;
+    font-weight: 900;
+    transition: background-color .2s ease-in;
+}
+
+.nav_div a:hover{
+    transform: scale(2);
+    background-color: #3b8da7;
+    font-weight: 1000;
+}
+
+#notice{
+    height: 30px;
+    background-color:#05445E;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.notice_container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type='radio']{
+    cursor: pointer;
+    margin: 10px;
+}
+
+.filter_container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 90px;
+    z-index: 2;
+    background-color: #3b8da7;
+    padding: 10px 0;
+    color: white;
+    border-radius: 15px;
+}
+
+.default_layout{
+    display:flex;
+    justify-content: center;
+}
+
+.default_container{
+    margin: 80px 0;
+}
+
+.default_container h2{
+    text-align: center;
+    margin-bottom: 50px;
+    animation: default_anim 1s infinite;
+    font-weight: bold;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.content h1{
+    text-align: center;
+}
+
+@keyframes default_anim {
+    0%{
+        color:red;
+    }
+    50%{
+        color:black;
+    }
+    100%{
+        color: red;
+    }
+}
+
+.default_container img{
+    border-radius: 15px;
+}
+
+#slider, #strip_slider{
+    min-width: 500px;
+}
+
+
+footer{
+    background-color: #3b8da7;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+footer .source{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .source a{
+    color: #f2f2f2;
+}
