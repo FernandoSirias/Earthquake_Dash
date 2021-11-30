@@ -20,7 +20,7 @@ I used an ***API*** to request all the data about earthquakes with an **alert** 
 - The reason why the earthquakes occurred (Natural, vulcanic eruption, nuclar bomb).
 
 
-All these objectives are completed by creating a dashboard where users can interact with the graphics through filters and maps.
+All these objectives are completed by creating a dashboard where users can interact with the graphics through filters and maps. I used **CSS** to improve the appearance of the dash, it includes positioning using *Flexbox*, animations with *css keyframes*, nav and footer design. 
 
 
 You can see the live dash [here](https://earthquakedash.herokuapp.com/).
